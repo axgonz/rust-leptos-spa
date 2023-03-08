@@ -24,6 +24,8 @@ use leptos_meta::*;
 
 #[component]
 pub fn App(cx: Scope) -> impl IntoView {
+    log!("Hello Log! (from App component)");
+
     // Provides context that manages stylesheets, titles, meta tags, etc.
     provide_meta_context(cx);
 

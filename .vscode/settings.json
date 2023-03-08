@@ -1,4 +1,11 @@
 {
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#294450",
+        "titleBar.activeForeground": "#F9FBFC"
+    },
+    "cSpell.words": [
+        "Leptos"
+    ],
     "emmet.includeLanguages": {
         "rust": "html",
         "*.rs": "html"

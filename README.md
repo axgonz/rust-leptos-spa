@@ -1,6 +1,6 @@
 # Leptos App
 
-A Single Page Application (SPA) in Rust using Leptos framework, Tailwind CSS and Trunk build tools.
+SPA template in Rust using Leptos framework.
 
 ## Overview
 
@@ -29,16 +29,10 @@ git clone --depth 1 https://github.com/leptos-rs/leptos.git && cd leptos/docs/bo
 popd
 
 ```
-
-VS Code extensions
-- rust-analyzer (The Rust Programming Language)
-- Tailwind CSS IntelliSense (Tailwind Labs)
-- Code Spell Checker (Street Side Software)
-- GitLens (GitKraken)
-- Bicep (Microsoft)
-- Azure Functions (Microsoft)
-
 ## Setup
+
+By default Trunk will serve on address *127.0.0.1* and port *8080*. To change these set with `TRUNK_SERVE_ADDRESS`
+and/or `TRUNK_SERVE_PORT` environment variables.
 
 Tailwind dev service
 ```bash
